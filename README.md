@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+View [live working app](https://sigo.github.io/example-react-redux-api-fetch/).
+
 
 ## Description
 
