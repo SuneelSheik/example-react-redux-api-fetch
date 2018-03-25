@@ -1,19 +1,21 @@
 import * as React from 'react';
 import './App.css';
+import PostsList from '../posts/components/PostsList';
+import SearchForm from '../posts/components/SearchForm';
 
 const logo = require('./logo.svg');
 
 class App extends React.Component {
     render() {
         return (
-            <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo"/>
-                    <h1 className="App-title">Example React Redux API Fetch</h1>
+            <div>
+                <header className="header">
+                    <img className="logo" src={logo} alt="Logo"/>
+                    <h1>Example React Redux API Fetch</h1>
                 </header>
-                <p className="App-intro">
-                    To get started, edit <code>src/App.tsx</code> and save to reload.
-                </p>
+
+                <SearchForm/>
+                <PostsList/>
             </div>
         );
     }
